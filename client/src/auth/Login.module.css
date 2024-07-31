@@ -1,0 +1,67 @@
+/* Login.module.css */
+
+.loginContainer {
+  display: flex;
+  align-items: center;
+  justify-content:flex-start; 
+  height: 90vh;
+  background-repeat: no-repeat;
+  background-image: url('ecommerce.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.formContainer {
+  display: flex;
+  flex-direction: column; /* Adjusting to a column layout */
+  align-items: center; 
+  background-color: rgba(255, 255, 255);
+  padding: 2rem;
+  border: 1px solid black;
+  border-radius: 5px;
+  font-size: 2rem;
+  width: 30%;
+}
+
+.label {
+  margin: 1rem;
+  display: flex;
+}
+
+.labelText {
+  flex: 1;
+  font-weight: bold;
+}
+
+.input {
+  flex: 1;
+  margin: 0 1rem;
+  font-size: 1.5rem;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.submit {
+  margin: 1rem;
+  display: block;
+  font-size: 1.5rem;
+  padding: 1rem;
+  width: 100%;
+  background: rgb(86, 152, 206);
+  border: 1px solid gray;
+  border-radius: 10px;
+  color: white;
+  box-shadow: 0px 1px 3px 0px black;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit:hover {
+  background-color: rgb(139, 10, 179);
+}
+
+.errorMsg {
+  color: red;
+  padding: 1rem;
+}
